@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CRISPRPlants</title>
+    <meta name="description" content="Gene-edited plants for research labs – Arabidopsis & Tomato lines." />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>html { scroll-behavior: smooth; }</style>
+  </head>
+  <body class="bg-neutral-50 text-neutral-900 antialiased">
+    <div class="sticky top-0 z-50 border-b border-neutral-200/70 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <a href="#top" class="flex items-center gap-2 font-semibold">
+          <img src="images/logo.png" alt="CRISPRPlants logo" class="h-6 w-auto" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 600'><rect width='1200' height='600' fill='%23e5e7eb'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='36' fill='%236b7280'>Image placeholder</text></svg>'">
+          <span>CRISPRPlants</span>
+        </a>
+        <nav class="hidden items-center gap-4 text-sm font-medium sm:flex">
+          <a href="#catalog" class="hover:text-black">Catalog</a>
+          <a href="#workflow" class="hover:text-black">Workflow</a>
+          <a href="#pricing" class="hover:text-black">Cost & ROI</a>
+          <a href="#compliance" class="hover:text-black">Compliance</a>
+          <a href="#faq" class="hover:text-black">FAQ</a>
+          <a href="#contact" class="hover:text-black">Contact</a>
+        </nav>
+        <a href="mailto:orders@crisprplants.com" class="rounded-2xl bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:opacity-90">
+          Request a quote
+        </a>
+      </div>
+    </div>
+
+    <header id="top" class="border-b border-neutral-200/70 bg-gradient-to-b from-neutral-50 to-white">
+      <div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 px-4 pb-16 pt-10 sm:pt-16 lg:grid-cols-2 lg:gap-12">
+        <div>
+          <div class="mb-4 inline-flex items-center gap-2 rounded-2xl border border-neutral-200 bg-white px-3 py-1.5 text-xs font-medium shadow-sm">
+            <i data-lucide="shield-check" class="h-4 w-4"></i>
+            Institution-only supply · MTA required
+          </div>
+          <h1 class="mb-4 text-3xl font-extrabold tracking-tight sm:text-5xl">
+            Gene-edited plants for research labs
+          </h1>
+          <p class="mb-6 max-w-xl text-neutral-700">
+            Gene-edited plants for research labs – faster, reliable, and cost-effective.
+            <span class="font-medium">Arabidopsis and tomato lines now. More crops coming soon.</span>
+          </p>
+          <div class="flex flex-wrap items-center gap-3">
+            <a href="#catalog" class="inline-flex items-center gap-2 rounded-2xl bg-black px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:opacity-90">
+              <i data-lucide="leaf" class="h-4 w-4"></i> Browse catalog
+            </a>
+            <a href="#pricing" class="inline-flex items-center gap-2 rounded-2xl border border-neutral-200 bg-white px-4 py-2.5 text-sm font-semibold shadow-sm hover:shadow-md">
+              <i data-lucide="calculator" class="h-4 w-4"></i> Estimate savings
+            </a>
+          </div>
+          <ul class="mt-6 grid grid-cols-1 gap-2 text-sm text-neutral-700 sm:grid-cols-2">
+            <li class="inline-flex items-center gap-2"><i data-lucide="check-circle-2" class="h-4 w-4"></i> Low total cost vs. in-house editing</li>
+            <li class="inline-flex items-center gap-2"><i data-lucide="check-circle-2" class="h-4 w-4"></i> Delivery of seeds or T1 plants</li>
+            <li class="inline-flex items-center gap-2"><i data-lucide="check-circle-2" class="h-4 w-4"></i> QC documentation and sequence validation</li>
+          </ul>
+        </div>
+        <div>
+          <div class="relative mx-auto aspect-[16/10] w-full overflow-hidden rounded-3xl border border-neutral-200 bg-white shadow-sm">
+            <img src="images/hero-greenhouse.jpg" alt="Gene-edited plants in greenhouse" class="h-full w-full object-cover" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 600'><rect width='1200' height='600' fill='%23e5e7eb'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='36' fill='%236b7280'>Image placeholder</text></svg>'">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="catalog" class="scroll-mt-24">
+      <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
+        <div class="mb-8 flex items-center gap-3">
+          <div class="rounded-2xl border border-neutral-200 bg-white p-2 shadow-sm">
+            <i data-lucide="leaf" class="h-5 w-5"></i>
+          </div>
+          <h2 class="text-xl font-semibold sm:text-2xl">Catalog</h2>
+        </div>
+
+        <div class="mb-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="flex w-full items-center gap-2">
+            <div class="grid h-10 w-10 place-items-center rounded-2xl border border-neutral-200 bg-white shadow-sm">
+              <i data-lucide="search" class="h-4 w-4"></i>
+            </div>
+            <input id="q" placeholder="Search species, trait, SKU…" class="w-full rounded-2xl border border-neutral-200 bg-white px-3 py-2 text-sm shadow-sm outline-none transition placeholder:text-neutral-400 focus:ring-2 focus:ring-black/10" />
+          </div>
+          <select id="species" class="rounded-2xl border border-neutral-200 bg-white px-3 py-2 text-sm shadow-sm outline-none transition">
+            <option value="all">All species</option>
+          </select>
+          <select id="editType" class="rounded-2xl border border-neutral-200 bg-white px-3 py-2 text-sm shadow-sm outline-none transition">
+            <option value="all">All edit types</option>
+            <option>Single mutant</option>
+            <option>Multiplex</option>
+            <option>GUS reporter</option>
+            <option>Precise edit</option>
+          </select>
+          <select id="delivery" class="rounded-2xl border border-neutral-200 bg-white px-3 py-2 text-sm shadow-sm outline-none transition">
+            <option value="all">All delivery types</option>
+            <option>Seeds</option>
+            <option>T1 plants</option>
+          </select>
+        </div>
+
+        <ul id="catalogList" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"></ul>
+      </div>
+    </section>
+
+    <section id="workflow" class="scroll-mt-24">
+      <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
+        <div class="mb-8 flex items-center gap-3">
+          <div class="rounded-2xl border border-neutral-200 bg-white p-2 shadow-sm">
+            <i data-lucide="flask-conical" class="h-5 w-5"></i>
+          </div>
+          <h2 class="text-xl font-semibold sm:text-2xl">Workflow</h2>
+        </div>
+        <img src="images/workflow-illustration.jpg" alt="Workflow: Design, Edit, QC, Deliver" class="mb-6 w-full rounded-2xl object-contain" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 600'><rect width='1200' height='600' fill='%23e5e7eb'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='36' fill='%236b7280'>Image placeholder</text></svg>'">
+        <ol class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <li class="rounded-3xl border border-neutral-200 bg-white p-5 shadow-sm">
+            <div class="mb-2 inline-flex items-center gap-2 text-sm text-neutral-500"><i data-lucide="flask-conical" class="h-4 w-4"></i> Step 1</div>
+            <h3 class="font-semibold">Design</h3>
+            <p class="mt-1 text-sm text-neutral-700">Send targets/traits. We validate guides and construct strategy.</p>
+          </li>
+          <li class="rounded-3xl border border-neutral-200 bg-white p-5 shadow-sm">
+            <div class="mb-2 inline-flex items-center gap-2 text-sm text-neutral-500"><i data-lucide="factory" class="h-4 w-4"></i> Step 2</div>
+            <h3 class="font-semibold">Edit</h3>
+            <p class="mt-1 text-sm text-neutral-700">Transformation + selection in validated pipelines.</p>
+          </li>
+          <li class="rounded-3xl border border-neutral-200 bg-white p-5 shadow-sm">
+            <div class="mb-2 inline-flex items-center gap-2 text-sm text-neutral-500"><i data-lucide="check-circle-2" class="h-4 w-4"></i> Step 3</div>
+            <h3 class="font-semibold">QC</h3>
+            <p class="mt-1 text-sm text-neutral-700">Sequence confirmation, segregation, and documentation.</p>
+          </li>
+          <li class="rounded-3xl border border-neutral-200 bg-white p-5 shadow-sm">
+            <div class="mb-2 inline-flex items-center gap-2 text-sm text-neutral-500"><i data-lucide="sprout" class="h-4 w-4"></i> Step 4</div>
+            <h3 class="font-semibold">Deliver</h3>
+            <p class="mt-1 text-sm text-neutral-700">Seeds or T1 plants with datasheets and MTA.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="pricing" class="scroll-mt-24">
+      <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
+        <div class="mb-8 flex items-center gap-3">
+          <div class="rounded-2xl border border-neutral-200 bg-white p-2 shadow-sm">
+            <i data-lucide="dollar-sign" class="h-5 w-5"></i>
+          </div>
+          <h2 class="text-xl font-semibold sm:text-2xl">Cost & ROI</h2>
+        </div>
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <div class="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm">
+            <h3 class="mb-4 font-semibold">In-house vs. CRISPRPlants</h3>
+            <div class="space-y-4 text-sm">
+              <label class="block">
+                <div class="mb-1 flex items-center justify-between text-neutral-700">
+                  <span># of lines</span><span id="linesOut" class="font-medium">3</span>
+                </div>
+                <input id="lines" type="range" min="1" max="12" value="3" class="w-full" oninput="document.getElementById('linesOut').textContent=this.value; recalc();" />
+              </label>
+              <label class="block">
+                <div class="mb-1 flex items-center justify-between text-neutral-700">
+                  <span>Months of staff time</span><span id="monthsOut" class="font-medium">6</span>
+                </div>
+                <input id="months" type="range" min="0" max="18" value="6" class="w-full" oninput="document.getElementById('monthsOut').textContent=this.value; recalc();" />
+              </label>
+              <label class="block">
+                <div class="mb-1 flex items-center justify-between text-neutral-700">
+                  <span>Staff cost per month (AUD)</span><span class="font-medium">A$ <span id="fteOut">12000</span></span>
+                </div>
+                <input id="fte" type="number" value="12000" step="500" class="w-full rounded-2xl border border-neutral-200 px-3 py-2" oninput="recalc()" />
+              </label>
+              <label class="block">
+                <div class="mb-1 flex items-center justify-between text-neutral-700">
+                  <span>Consumables per line (AUD)</span><span class="font-medium">A$ <span id="consOut">900</span></span>
+                </div>
+                <input id="cons" type="number" value="900" step="50" class="w-full rounded-2xl border border-neutral-200 px-3 py-2" oninput="recalc()" />
+              </label>
+              <label class="block">
+                <div class="mb-1 flex items-center justify-between text-neutral-700">
+                  <span>Our price per line (AUD)</span><span class="font-medium">A$ <span id="priceOut">3500</span></span>
+                </div>
+                <input id="price" type="number" value="3500" step="50" class="w-full rounded-2xl border border-neutral-200 px-3 py-2" oninput="recalc()" />
+              </label>
+            </div>
+          </div>
+          <div class="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm">
+            <div class="mb-2 inline-flex items-center gap-2 text-sm text-neutral-500"><i data-lucide="calculator" class="h-4 w-4"></i> Estimated totals (AUD)</div>
+            <div class="grid gap-3 text-sm">
+              <div class="flex items-center justify-between rounded-2xl border px-3 py-2">
+                <span>In-house total</span><span id="inhouseTotal" class="font-semibold">A$ 0</span>
+              </div>
+              <div class="flex items-center justify-between rounded-2xl border px-3 py-2">
+                <span>CRISPRPlants total</span><span id="ourTotal" class="font-semibold">A$ 0</span>
+              </div>
+              <div class="flex items-center justify-between rounded-2xl border-2 border-green-200 bg-green-50 px-3 py-2">
+                <span>Estimated savings</span><span id="savings" class="font-semibold text-green-700">A$ 0 (0%)</span>
+              </div>
+            </div>
+            <a href="mailto:orders@crisprplants.com" class="mt-6 inline-flex items-center gap-2 rounded-2xl bg-black px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:opacity-90">
+              Get an exact quote <i data-lucide="chevron-right" class="h-4 w-4"></i>
+            </a>
+            <p class="mt-4 text-xs text-neutral-500">Figures are placeholders for planning only. Quotes depend on targets, cultivars, throughput, and QC scope.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="compliance" class="scroll-mt-24">
+      <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
+        <div class="mb-8 flex items-center gap-3">
+          <div class="rounded-2xl border border-neutral-200 bg-white p-2 shadow-sm">
+            <i data-lucide="shield-check" class="h-5 w-5"></i>
+          </div>
+          <h2 class="text-xl font-semibold sm:text-2xl">Compliance</h2>
+        </div>
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-3">
+          <div class="rounded-3xl border border-neutral-200 bg-white p-5 shadow-sm">
+            <div class="mb-2 inline-flex items-center gap-2 text-sm text-neutral-500"><i data-lucide="check-circle-2" class="h-4 w-4"></i> Assured</div>
+            <div class="font-semibold">Sequence-verified</div>
+            <p class="mt-1 text-sm text-neutral-700">Documentation provided with each shipment. MTAs executed prior to manufacture or release.</p>
+          </div>
+          <div class="rounded-3xl border border-neutral-200 bg-white p-5 shadow-sm">
+            <div class="mb-2 inline-flex items-center gap-2 text-sm text-neutral-500"><i data-lucide="shield-check" class="h-4 w-4"></i> Assured</div>
+            <div class="font-semibold">Institution-only supply</div>
+            <p class="mt-1 text-sm text-neutral-700">We supply only to accredited research institutions.</p>
+          </div>
+          <div class="rounded-3xl border border-neutral-200 bg-white p-5 shadow-sm">
+            <div class="mb-2 inline-flex items-center gap-2 text-sm text-neutral-500"><i data-lucide="book-open" class="h-4 w-4"></i> Assured</div>
+            <div class="font-semibold">MTA + compliance ready</div>
+            <p class="mt-1 text-sm text-neutral-700">Institutional biosafety approval is required prior to ordering.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="scroll-mt-24">
+      <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
+        <div class="mb-8 flex items-center gap-3">
+          <div class="rounded-2xl border border-neutral-200 bg-white p-2 shadow-sm">
+            <i data-lucide="book-open" class="h-5 w-5"></i>
+          </div>
+          <h2 class="text-xl font-semibold sm:text-2xl">FAQ</h2>
+        </div>
+        <ul class="space-y-3">
+          <li class="rounded-2xl border border-neutral-200 bg-white p-4 text-sm shadow-sm">
+            <div class="font-semibold">What’s included with each line?</div>
+            <p class="mt-1 text-neutral-700">Sequence confirmation, basic phenotypic notes, and a datasheet. Additional assays available on request.</p>
+          </li>
+          <li class="rounded-2xl border border-neutral-200 bg-white p-4 text-sm shadow-sm">
+            <div class="font-semibold">Can you target multiple genes?</div>
+            <p class="mt-1 text-neutral-700">Yes. Multiplex designs are available for both Arabidopsis and tomato; lead times vary by complexity.</p>
+          </li>
+          <li class="rounded-2xl border border-neutral-200 bg-white p-4 text-sm shadow-sm">
+            <div class="font-semibold">Do you provide seeds or plants?</div>
+            <p class="mt-1 text-neutral-700">Both. Arabidopsis is commonly supplied as seeds or T1 plants; tomato as T1 plants.</p>
+          </li>
+          <li class="rounded-2xl border border-neutral-200 bg-white p-4 text-sm shadow-sm">
+            <div class="font-semibold">Do you accept custom projects?</div>
+            <p class="mt-1 text-neutral-700">Absolutely. Share targets, cultivar preferences, and constraints for a tailored quote.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="scroll-mt-24">
+      <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
+        <div class="mb-8 flex items-center gap-3">
+          <div class="rounded-2xl border border-neutral-200 bg-white p-2 shadow-sm">
+            <i data-lucide="mail" class="h-5 w-5"></i>
+          </div>
+          <h2 class="text-xl font-semibold sm:text-2xl">Contact</h2>
+        </div>
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+          <div class="rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm">
+            <h3 class="mb-1 text-lg font-semibold">Email</h3>
+            <p class="mb-4 text-sm text-neutral-700">We typically respond within 2 business days.</p>
+            <a href="mailto:orders@crisprplants.com" class="inline-flex items-center gap-2 rounded-2xl bg-black px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:opacity-90">
+              <i data-lucide="mail" class="h-4 w-4"></i> orders@crisprplants.com
+            </a>
+          </div>
+          <div class="rounded-3xl border border-neutral-200 bg-white p-6 text-sm shadow-sm">
+            <h3 class="mb-2 text-lg font-semibold">What to include</h3>
+            <ul class="list-disc pl-5 text-neutral-700">
+              <li>Targets and desired trait(s)</li>
+              <li>Species/cultivar and delivery type</li>
+              <li>Throughput (number of lines)</li>
+              <li>Institution and shipping location</li>
+              <li>Compliance details (MTA, biosafety approvals)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="border-t border-neutral-200/70 bg-white py-10 text-sm">
+      <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 sm:flex-row">
+        <div class="text-neutral-600">© <span id="year"></span> CRISPRPlants · Melbourne, Australia</div>
+        <a href="#top" class="rounded-xl border border-neutral-200 bg-white px-3 py-1.5 hover:shadow">Back to top</a>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      const CATALOG = [
+        { species: "Arabidopsis thaliana", code: "ARAB", leadTimeWeeks: 6, lines: [
+          {{sku: "ARAB-KO-01", name: "Single mutant (knockout)", trait: "Loss-of-function", editType: "Single mutant", delivery: ["Seeds","T1 plants"], image: "images/arabidopsis-ko.jpg"}},
+          {{sku: "ARAB-MPX-02", name: "Multiplex mutants (2–3 genes)", trait: "Pathway interrogation", editType: "Multiplex", delivery: ["Seeds","T1 plants"], image: "images/arabidopsis-ko.jpg"}},
+          {{sku: "ARAB-GUS-03", name: "GUS reporter line", trait: "Promoter::GUS / gene fusion", editType: "GUS reporter", delivery: ["Seeds"], image: "images/arabidopsis-seeds.jpg"}},
+          {{sku: "ARAB-HDR-04", name: "Precise edit (HDR / tag)", trait: "Point mutation / epitope tag", editType: "Precise edit", delivery: ["T1 plants"], image: "images/arabidopsis-ko.jpg"}},
+        ]},
+        { species: "Solanum lycopersicum (Tomato)", code: "TOMA", leadTimeWeeks: 10, lines: [
+          {{sku: "TOMA-KO-01", name: "Single mutant (knockout)", trait: "Loss-of-function", editType: "Single mutant", delivery: ["T1 plants"], image: "images/imagestomato-plant.jpg"}},
+          {{sku: "TOMA-MPX-02", name: "Multiplex mutants (2–3 genes)", trait: "Pathway interrogation", editType: "Multiplex", delivery: ["T1 plants"], image: "images/tomato-multiplex.jpg"}},
+        ]},
+      ];
+
+      const speciesSel = document.getElementById('species');
+      CATALOG.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c.code;
+        opt.textContent = c.species;
+        speciesSel.appendChild(opt);
+      });
+
+      function renderCatalog() {{
+        const q = document.getElementById('q').value.toLowerCase();
+        const species = document.getElementById('species').value;
+        const editType = document.getElementById('editType').value;
+        const delivery = document.getElementById('delivery').value;
+        const list = document.getElementById('catalogList');
+        list.innerHTML = '';
+
+        const matches = [];
+        CATALOG.forEach(c => {{
+          c.lines.forEach(line => {{
+            const matchesQ = !q || line.name.toLowerCase().includes(q) || line.trait.toLowerCase().includes(q) || c.species.toLowerCase().includes(q) || line.sku.toLowerCase().includes(q);
+            const matchesSpecies = species === 'all' || c.code === species;
+            const matchesEdit = editType === 'all' || line.editType === editType;
+            const matchesDeliv = delivery === 'all' || line.delivery.includes(delivery);
+            if (matchesQ && matchesSpecies && matchesEdit && matchesDeliv) {{
+              matches.push({{ ...line, species: c.species, leadTimeWeeks: c.leadTimeWeeks }});
+            }}
+          }});
+        }});
+
+        matches.forEach(item => {{
+          const li = document.createElement('li');
+          li.className = "rounded-3xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md transition";
+          li.innerHTML = `
+            ${{item.image ? `<div class="mb-3 overflow-hidden rounded-2xl"><img src="${{item.image}}" alt="${{item.name}} – ${{item.species}}" class="h-40 w-full object-cover" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 600'><rect width='1200' height='600' fill='%23e5e7eb'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='36' fill='%236b7280'>Image placeholder</text></svg>'"></div>` : ''}}
+            <div class="mb-1 text-xs text-neutral-500">${{item.species}} · Lead time ~${{item.leadTimeWeeks}} wks</div>
+            <h3 class="text-lg font-semibold">${{item.name}}</h3>
+            <div class="mt-1 text-sm text-neutral-700">SKU: ${{item.sku}}</div>
+            <div class="mt-2 flex flex-wrap gap-2 text-xs">
+              <span class="rounded-full border border-neutral-200 px-2 py-0.5">${{item.trait}}</span>
+              <span class="rounded-full border border-neutral-200 px-2 py-0.5">${{item.editType}}</span>
+              ${{item.delivery.map(d => `<span class="rounded-full border border-neutral-200 px-2 py-0.5">${{d}}</span>`).join('')}}
+            </div>
+            <div class="mt-4 flex flex-wrap items-center gap-2">
+              <a href="#" class="inline-flex items-center gap-1 rounded-xl border border-neutral-200 bg-white px-2 py-1 text-sm hover:shadow">Datasheet <i data-lucide="arrow-up-right" class="h-4 w-4"></i></a>
+              <a href="#" class="inline-flex items-center gap-1 rounded-xl border border-neutral-200 bg-white px-2 py-1 text-sm hover:shadow">Sequence <i data-lucide="arrow-up-right" class="h-4 w-4"></i></a>
+              <a href="mailto:orders@crisprplants.com?subject=${{encodeURIComponent('Quote request: ' + item.sku + ' – ' + item.name)}}" class="inline-flex items-center gap-1 rounded-xl border border-neutral-200 bg-white px-2 py-1 text-sm hover:shadow">Request quote</a>
+            </div>
+          `;
+          list.appendChild(li);
+        }});
+
+        lucide.createIcons();
+      }}
+
+      ['q','species','editType','delivery'].forEach(id => {{
+        document.getElementById(id).addEventListener('input', renderCatalog);
+        document.getElementById(id).addEventListener('change', renderCatalog);
+      }});
+
+      function recalc() {{
+        const lines = parseInt(document.getElementById('lines').value, 10);
+        const months = parseInt(document.getElementById('months').value, 10);
+        const fte = parseFloat(document.getElementById('fte').value);
+        const cons = parseFloat(document.getElementById('cons').value);
+        const price = parseFloat(document.getElementById('price').value);
+        document.getElementById('fteOut').textContent = Math.round(fte);
+        document.getElementById('consOut').textContent = Math.round(cons);
+        document.getElementById('priceOut').textContent = Math.round(price);
+
+        const inhouseTotal = Math.max(0, months * fte + lines * cons);
+        const ourTotal = Math.max(0, lines * price);
+        const savings = Math.max(0, inhouseTotal - ourTotal);
+        const pct = inhouseTotal > 0 ? Math.round((savings / inhouseTotal) * 100) : 0;
+
+        function money(x){{ return 'A$ ' + Math.round(x).toLocaleString(); }}
+        document.getElementById('inhouseTotal').textContent = money(inhouseTotal);
+        document.getElementById('ourTotal').textContent = money(ourTotal);
+        document.getElementById('savings').textContent = money(savings) + ' (' + pct + '%)';
+      }}
+
+      document.getElementById('lines').addEventListener('input', recalc);
+      document.getElementById('months').addEventListener('input', recalc);
+      document.getElementById('fte').addEventListener('input', recalc);
+      document.getElementById('cons').addEventListener('input', recalc);
+      document.getElementById('price').addEventListener('input', recalc);
+
+      document.getElementById('year').textContent = new Date().getFullYear();
+      lucide.createIcons();
+      renderCatalog();
+      recalc();
+    </script>
+  </body>
+</html>
