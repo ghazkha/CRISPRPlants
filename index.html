@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CRISPRPlants</title>
     <meta name="description" content="Gene-edited plants for research labs – Arabidopsis & Tomato lines." />
-    <link rel="icon" type="image/png" href="/favicon.png" />
+    <!-- important: no leading slash -->
+    <link rel="icon" type="image/png" href="favicon.png" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>html { scroll-behavior: smooth; }</style>
   </head>
   <body class="bg-neutral-50 text-neutral-900 antialiased">
+    <!-- NAVBAR -->
     <div class="sticky top-0 z-50 border-b border-neutral-200/70 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <a href="#top" class="flex items-center gap-2 font-semibold">
-          <img src="images/logo.png" alt="CRISPRPlants logo" class="h-6 w-auto" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 600'><rect width='1200' height='600' fill='%23e5e7eb'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='36' fill='%236b7280'>Image placeholder</text></svg>'">
+          <img src="images/logo.png" alt="CRISPRPlants logo" class="h-6 w-auto">
           <span>CRISPRPlants</span>
         </a>
         <nav class="hidden items-center gap-4 text-sm font-medium sm:flex">
@@ -31,6 +33,7 @@
       </div>
     </div>
 
+    <!-- HERO -->
     <header id="top" class="border-b border-neutral-200/70 bg-gradient-to-b from-neutral-50 to-white">
       <div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 px-4 pb-16 pt-10 sm:pt-16 lg:grid-cols-2 lg:gap-12">
         <div>
@@ -61,12 +64,13 @@
         </div>
         <div>
           <div class="relative mx-auto aspect-[16/10] w-full overflow-hidden rounded-3xl border border-neutral-200 bg-white shadow-sm">
-            <img src="images/hero-greenhouse.jpg" alt="Gene-edited plants in greenhouse" class="h-full w-full object-cover" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 600'><rect width='1200' height='600' fill='%23e5e7eb'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='36' fill='%236b7280'>Image placeholder</text></svg>'">
+            <img src="images/hero-greenhouse.jpg" alt="Gene-edited plants in greenhouse" class="h-full w-full object-cover">
           </div>
         </div>
       </div>
     </header>
 
+    <!-- CATALOG -->
     <section id="catalog" class="scroll-mt-24">
       <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
         <div class="mb-8 flex items-center gap-3">
@@ -76,6 +80,7 @@
           <h2 class="text-xl font-semibold sm:text-2xl">Catalog</h2>
         </div>
 
+        <!-- Filters -->
         <div class="mb-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <div class="flex w-full items-center gap-2">
             <div class="grid h-10 w-10 place-items-center rounded-2xl border border-neutral-200 bg-white shadow-sm">
@@ -104,6 +109,7 @@
       </div>
     </section>
 
+    <!-- WORKFLOW -->
     <section id="workflow" class="scroll-mt-24">
       <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
         <div class="mb-8 flex items-center gap-3">
@@ -112,7 +118,7 @@
           </div>
           <h2 class="text-xl font-semibold sm:text-2xl">Workflow</h2>
         </div>
-        <img src="images/workflow-illustration.jpg" alt="Workflow: Design, Edit, QC, Deliver" class="mb-6 w-full rounded-2xl object-contain" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 600'><rect width='1200' height='600' fill='%23e5e7eb'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='36' fill='%236b7280'>Image placeholder</text></svg>'">
+        <img src="images/workflow-illustration.jpg" alt="Workflow: Design, Edit, QC, Deliver" class="mb-6 w-full rounded-2xl object-contain">
         <ol class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <li class="rounded-3xl border border-neutral-200 bg-white p-5 shadow-sm">
             <div class="mb-2 inline-flex items-center gap-2 text-sm text-neutral-500"><i data-lucide="flask-conical" class="h-4 w-4"></i> Step 1</div>
@@ -138,6 +144,7 @@
       </div>
     </section>
 
+    <!-- PRICING -->
     <section id="pricing" class="scroll-mt-24">
       <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
         <div class="mb-8 flex items-center gap-3">
@@ -204,6 +211,7 @@
       </div>
     </section>
 
+    <!-- COMPLIANCE -->
     <section id="compliance" class="scroll-mt-24">
       <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
         <div class="mb-8 flex items-center gap-3">
@@ -232,6 +240,7 @@
       </div>
     </section>
 
+    <!-- FAQ -->
     <section id="faq" class="scroll-mt-24">
       <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
         <div class="mb-8 flex items-center gap-3">
@@ -261,6 +270,7 @@
       </div>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact" class="scroll-mt-24">
       <div class="mx-auto max-w-6xl px-4 py-14 sm:py-20">
         <div class="mb-8 flex items-center gap-3">
@@ -291,6 +301,7 @@
       </div>
     </section>
 
+    <!-- FOOTER -->
     <footer class="border-t border-neutral-200/70 bg-white py-10 text-sm">
       <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 sm:flex-row">
         <div class="text-neutral-600">© <span id="year"></span> CRISPRPlants · Melbourne, Australia</div>
@@ -299,21 +310,34 @@
     </footer>
 
     <script>
+      // Year
       document.getElementById('year').textContent = new Date().getFullYear();
 
+      // --- Data ---
       const CATALOG = [
-        { species: "Arabidopsis thaliana", code: "ARAB", leadTimeWeeks: 6, lines: [
-          {{sku: "ARAB-KO-01", name: "Single mutant (knockout)", trait: "Loss-of-function", editType: "Single mutant", delivery: ["Seeds","T1 plants"], image: "images/arabidopsis-ko.jpg"}},
-          {{sku: "ARAB-MPX-02", name: "Multiplex mutants (2–3 genes)", trait: "Pathway interrogation", editType: "Multiplex", delivery: ["Seeds","T1 plants"], image: "images/arabidopsis-ko.jpg"}},
-          {{sku: "ARAB-GUS-03", name: "GUS reporter line", trait: "Promoter::GUS / gene fusion", editType: "GUS reporter", delivery: ["Seeds"], image: "images/arabidopsis-seeds.jpg"}},
-          {{sku: "ARAB-HDR-04", name: "Precise edit (HDR / tag)", trait: "Point mutation / epitope tag", editType: "Precise edit", delivery: ["T1 plants"], image: "images/arabidopsis-ko.jpg"}},
-        ]},
-        { species: "Solanum lycopersicum (Tomato)", code: "TOMA", leadTimeWeeks: 10, lines: [
-          {{sku: "TOMA-KO-01", name: "Single mutant (knockout)", trait: "Loss-of-function", editType: "Single mutant", delivery: ["T1 plants"], image: "images/imagestomato-plant.jpg"}},
-          {{sku: "TOMA-MPX-02", name: "Multiplex mutants (2–3 genes)", trait: "Pathway interrogation", editType: "Multiplex", delivery: ["T1 plants"], image: "images/tomato-multiplex.jpg"}},
-        ]},
+        {
+          species: "Arabidopsis thaliana",
+          code: "ARAB",
+          leadTimeWeeks: 6,
+          lines: [
+            { sku: "ARAB-KO-01", name: "Single mutant (knockout)", trait: "Loss-of-function", editType: "Single mutant", delivery: ["Seeds","T1 plants"], image: "images/arabidopsis-ko.jpg" },
+            { sku: "ARAB-MPX-02", name: "Multiplex mutants (2–3 genes)", trait: "Pathway interrogation", editType: "Multiplex", delivery: ["Seeds","T1 plants"], image: "images/arabidopsis-ko.jpg" },
+            { sku: "ARAB-GUS-03", name: "GUS reporter line", trait: "Promoter::GUS / gene fusion", editType: "GUS reporter", delivery: ["Seeds"], image: "images/arabidopsis-seeds.jpg" },
+            { sku: "ARAB-HDR-04", name: "Precise edit (HDR / tag)", trait: "Point mutation / epitope tag", editType: "Precise edit", delivery: ["T1 plants"], image: "images/arabidopsis-ko.jpg" },
+          ],
+        },
+        {
+          species: "Solanum lycopersicum (Tomato)",
+          code: "TOMA",
+          leadTimeWeeks: 10,
+          lines: [
+            { sku: "TOMA-KO-01", name: "Single mutant (knockout)", trait: "Loss-of-function", editType: "Single mutant", delivery: ["T1 plants"], image: "images/imagestomato-plant.jpg" }, /* rename in repo or change here if your file is tomato-plant.jpg */
+            { sku: "TOMA-MPX-02", name: "Multiplex mutants (2–3 genes)", trait: "Pathway interrogation", editType: "Multiplex", delivery: ["T1 plants"], image: "images/tomato-multiplex.jpg" },
+          ],
+        },
       ];
 
+      // Populate species filter
       const speciesSel = document.getElementById('species');
       CATALOG.forEach(c => {
         const opt = document.createElement('option');
@@ -322,7 +346,8 @@
         speciesSel.appendChild(opt);
       });
 
-      function renderCatalog() {{
+      // Render catalog
+      function renderCatalog() {
         const q = document.getElementById('q').value.toLowerCase();
         const species = document.getElementById('species').value;
         const editType = document.getElementById('editType').value;
@@ -331,79 +356,84 @@
         list.innerHTML = '';
 
         const matches = [];
-        CATALOG.forEach(c => {{
-          c.lines.forEach(line => {{
-            const matchesQ = !q || line.name.toLowerCase().includes(q) || line.trait.toLowerCase().includes(q) || c.species.toLowerCase().includes(q) || line.sku.toLowerCase().includes(q);
+        CATALOG.forEach(c => {
+          c.lines.forEach(line => {
+            const matchesQ =
+              !q ||
+              line.name.toLowerCase().includes(q) ||
+              line.trait.toLowerCase().includes(q) ||
+              c.species.toLowerCase().includes(q) ||
+              line.sku.toLowerCase().includes(q);
             const matchesSpecies = species === 'all' || c.code === species;
             const matchesEdit = editType === 'all' || line.editType === editType;
             const matchesDeliv = delivery === 'all' || line.delivery.includes(delivery);
-            if (matchesQ && matchesSpecies && matchesEdit && matchesDeliv) {{
-              matches.push({{ ...line, species: c.species, leadTimeWeeks: c.leadTimeWeeks }});
-            }}
-          }});
-        }});
+            if (matchesQ && matchesSpecies && matchesEdit && matchesDeliv) {
+              matches.push({ ...line, species: c.species, leadTimeWeeks: c.leadTimeWeeks });
+            }
+          });
+        });
 
-        matches.forEach(item => {{
+        matches.forEach(item => {
           const li = document.createElement('li');
           li.className = "rounded-3xl border border-neutral-200 bg-white p-5 shadow-sm hover:shadow-md transition";
           li.innerHTML = `
-            ${{item.image ? `<div class="mb-3 overflow-hidden rounded-2xl"><img src="${{item.image}}" alt="${{item.name}} – ${{item.species}}" class="h-40 w-full object-cover" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 600'><rect width='1200' height='600' fill='%23e5e7eb'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='36' fill='%236b7280'>Image placeholder</text></svg>'"></div>` : ''}}
-            <div class="mb-1 text-xs text-neutral-500">${{item.species}} · Lead time ~${{item.leadTimeWeeks}} wks</div>
-            <h3 class="text-lg font-semibold">${{item.name}}</h3>
-            <div class="mt-1 text-sm text-neutral-700">SKU: ${{item.sku}}</div>
+            ${item.image ? `<div class="mb-3 overflow-hidden rounded-2xl"><img src="${item.image}" alt="${item.name} – ${item.species}" class="h-40 w-full object-cover"></div>` : ''}
+            <div class="mb-1 text-xs text-neutral-500">${item.species} · Lead time ~${item.leadTimeWeeks} wks</div>
+            <h3 class="text-lg font-semibold">${item.name}</h3>
+            <div class="mt-1 text-sm text-neutral-700">SKU: ${item.sku}</div>
             <div class="mt-2 flex flex-wrap gap-2 text-xs">
-              <span class="rounded-full border border-neutral-200 px-2 py-0.5">${{item.trait}}</span>
-              <span class="rounded-full border border-neutral-200 px-2 py-0.5">${{item.editType}}</span>
-              ${{item.delivery.map(d => `<span class="rounded-full border border-neutral-200 px-2 py-0.5">${{d}}</span>`).join('')}}
+              <span class="rounded-full border border-neutral-200 px-2 py-0.5">${item.trait}</span>
+              <span class="rounded-full border border-neutral-200 px-2 py-0.5">${item.editType}</span>
+              ${item.delivery.map(d => `<span class="rounded-full border border-neutral-200 px-2 py-0.5">${d}</span>`).join('')}
             </div>
             <div class="mt-4 flex flex-wrap items-center gap-2">
               <a href="#" class="inline-flex items-center gap-1 rounded-xl border border-neutral-200 bg-white px-2 py-1 text-sm hover:shadow">Datasheet <i data-lucide="arrow-up-right" class="h-4 w-4"></i></a>
               <a href="#" class="inline-flex items-center gap-1 rounded-xl border border-neutral-200 bg-white px-2 py-1 text-sm hover:shadow">Sequence <i data-lucide="arrow-up-right" class="h-4 w-4"></i></a>
-              <a href="mailto:orders@crisprplants.com?subject=${{encodeURIComponent('Quote request: ' + item.sku + ' – ' + item.name)}}" class="inline-flex items-center gap-1 rounded-xl border border-neutral-200 bg-white px-2 py-1 text-sm hover:shadow">Request quote</a>
+              <a href="mailto:orders@crisprplants.com?subject=${encodeURIComponent('Quote request: ' + item.sku + ' – ' + item.name)}" class="inline-flex items-center gap-1 rounded-xl border border-neutral-200 bg-white px-2 py-1 text-sm hover:shadow">Request quote</a>
             </div>
           `;
           list.appendChild(li);
-        }});
+        });
 
+        // refresh icons for new DOM
         lucide.createIcons();
-      }}
+      }
 
-      ['q','species','editType','delivery'].forEach(id => {{
+      // Filters
+      ['q','species','editType','delivery'].forEach(id => {
         document.getElementById(id).addEventListener('input', renderCatalog);
         document.getElementById(id).addEventListener('change', renderCatalog);
-      }});
+      });
 
-      function recalc() {{
+      // ROI calc
+      function recalc() {
         const lines = parseInt(document.getElementById('lines').value, 10);
         const months = parseInt(document.getElementById('months').value, 10);
         const fte = parseFloat(document.getElementById('fte').value);
         const cons = parseFloat(document.getElementById('cons').value);
         const price = parseFloat(document.getElementById('price').value);
-        document.getElementById('fteOut').textContent = Math.round(fte);
-        document.getElementById('consOut').textContent = Math.round(cons);
-        document.getElementById('priceOut').textContent = Math.round(price);
 
         const inhouseTotal = Math.max(0, months * fte + lines * cons);
         const ourTotal = Math.max(0, lines * price);
         const savings = Math.max(0, inhouseTotal - ourTotal);
         const pct = inhouseTotal > 0 ? Math.round((savings / inhouseTotal) * 100) : 0;
 
-        function money(x){{ return 'A$ ' + Math.round(x).toLocaleString(); }}
+        function money(x){ return 'A$ ' + Math.round(x).toLocaleString(); }
         document.getElementById('inhouseTotal').textContent = money(inhouseTotal);
         document.getElementById('ourTotal').textContent = money(ourTotal);
         document.getElementById('savings').textContent = money(savings) + ' (' + pct + '%)';
-      }}
+      }
 
-      document.getElementById('lines').addEventListener('input', recalc);
-      document.getElementById('months').addEventListener('input', recalc);
-      document.getElementById('fte').addEventListener('input', recalc);
-      document.getElementById('cons').addEventListener('input', recalc);
-      document.getElementById('price').addEventListener('input', recalc);
-
-      document.getElementById('year').textContent = new Date().getFullYear();
+      // Init
       lucide.createIcons();
       renderCatalog();
       recalc();
+
+      // Hook inputs for ROI
+      ['lines','months','fte','cons','price'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.addEventListener('input', recalc);
+      });
     </script>
   </body>
 </html>
